@@ -115,7 +115,7 @@ const Login = () => {
   return (
     <div className="flex justify-between items-center px-10 max-sm:pl-0 max-sm:px-1 max-sm:mx-3 pl-40 h-screen">
       <div className="flex flex-1 justify-center max-sm:hidden">
-        <p className="text-4xl font-bold gradient poppins">
+        <p className="text-5xl font-bold gradient poppins">
           Welcome to {isLogin ? "Login" : "Sign Up"}
         </p>
       </div>
