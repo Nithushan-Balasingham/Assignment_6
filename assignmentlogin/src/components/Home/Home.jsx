@@ -79,7 +79,7 @@ const Home = () => {
       className=' w-full   items-center justify-center flex   md:h-screen xl:h-screen h-screen '>
     <div className='flex flex-col justify-center items-center shadow-xl p-16 rounded-lg shadow-black/20  '>
       <h1 
-        className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-500 text-5xl font-bold'>
+        className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-cyan-500 text-4xl font-bold'>
         Home
       </h1>
                 
