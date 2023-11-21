@@ -132,6 +132,8 @@ export default function SingleUser() {
       </div>
     </div>
   ) : (
-    <p>Not Autorized</p>
+    <div className='h-screen flex items-center justify-center'>
+          <p className='text-4xl text-rose-500'>Not Authorized</p>
+    </div>
   );
 };
