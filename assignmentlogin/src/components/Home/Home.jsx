@@ -27,7 +27,7 @@ const Home = () => {
   const fetchUser = () => {
     const config = {
       method: "GET",
-      url: `http://localhost:5005/api/users/${userID}`,
+      url: `https://assignment-6-761u.vercel.app/api/users/${userID}`,
       headers: {
         Authorization: `Bearer ${accessToken.currentUser.accessToken }`,
       },
@@ -55,7 +55,7 @@ const Home = () => {
 
     const config = {
       method: "DELETE",
-      url: `http://localhost:5005/api/users/${userID}`,
+      url: `https://assignment-6-761u.vercel.app/${userID}`,
       headers: {
         Authorization: `Bearer ${accessToken.currentUser.accessToken }`,
       },

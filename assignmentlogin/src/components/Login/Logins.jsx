@@ -45,7 +45,7 @@ const Login = () => {
 
       const config = {
         method: "post",
-        url: "http://localhost:5005/api/users/login",
+        url: "https://assignment-6-761u.vercel.app/api/users/login",
         headers: {
           "Content-Type": "application/json",
         },
@@ -87,7 +87,7 @@ const Login = () => {
 
       const config = {
         method: "post",
-        url: "http://localhost:5005/api/users/register",
+        url: "https://assignment-6-761u.vercel.app/api/users/register",
         headers: {
           "Content-Type": "application/json",
         },

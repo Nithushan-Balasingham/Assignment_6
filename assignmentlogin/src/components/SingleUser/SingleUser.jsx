@@ -19,7 +19,7 @@ export default function SingleUser() {
   const fetchUser = () => {
     const config = {
       method: "GET",
-      url: `http://localhost:5005/api/users/${id}`,
+      url: `https://assignment-6-761u.vercel.app/api/users/${id}`,
       headers: {
         Authorization: `Bearer ${accessToken.currentUser.accessToken }`,
       },
@@ -63,7 +63,7 @@ export default function SingleUser() {
       return;
     }
    
-    await axios.put(`http://localhost:5005/api/users/${id}`,data,config)
+    await axios.put(`https://assignment-6-761u.vercel.app/api/users/${id}`,data,config)
     navigate('/home');
     toast.success("Updated")
   };
